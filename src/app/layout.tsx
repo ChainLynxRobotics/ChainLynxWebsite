@@ -27,8 +27,9 @@ export default function RootLayout({
           <NavbarItem title="Home" href="/"></NavbarItem>
           <NavbarItem title="About" href="/about"></NavbarItem>
           <NavbarItem title="Sponsors" href="/sponsors"></NavbarItem>
-          <NavbarDropdown title="Resources" href={["/robot","/calendar"]}>
+          <NavbarDropdown title="Resources" href={["/robot", "/team", "/calendar"]}>
             <NavbarDropdownItem title="Our Robot" href="/robot"></NavbarDropdownItem>
+            <NavbarDropdownItem title="Our Team" href="/team"></NavbarDropdownItem>
             <NavbarDropdownItem title="Calendar" href="/calendar"></NavbarDropdownItem>
           </NavbarDropdown>
           <NavbarItem title="Join" href="/join"></NavbarItem>

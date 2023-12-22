@@ -1,0 +1,22 @@
+# This file contains the configuration for the home (default path) page.
+
+# Everything in this file is listen in chronological order to how they appear on the page.
+# Both HTML and Markdown are supported in most values.
+
+
+# The large text at the top of the page.
+title: "Our Team"
+# The smaller text below the title.
+subtitle: ""
+
+# Sections of the page, each one gets a title and an image gallery.
+sections:
+  - id: "2022-2023" # This id is used for the table of contents, and for linking to the section. For example, this would be /team#2022-2023 (NOTE: This value must be unique and cannot contain spaces)
+    title: "2022 - 2023 Team Photo" # The title of the section, displayed above the photo
+    picture: "/imgs/index/kickoff.jpg" # Image to show, this follows the same rules as the picture url in config/index.yml
+  - id: "2021-2022"
+    title: "2021 - 2022 Team Photo"
+    picture: "/imgs/index/kickoff.jpg"
+  - id: "2020-2021"
+    title: "2020 - 2021 Team Photo"
+    picture: "/imgs/index/kickoff.jpg"

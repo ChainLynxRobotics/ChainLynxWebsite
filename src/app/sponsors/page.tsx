@@ -12,10 +12,11 @@ export default function Sponsors() {
           <h1 dangerouslySetInnerHTML={parseMDInline(config.title)}></h1>
           <div className="text-center" dangerouslySetInnerHTML={parseMD(config.subtitle)}></div>
       </div>
-      <div className="max-w-4xl flex flex-wrap justify-center my-8">
+      <div className="max-w-4xl flex flex-wrap justify-center items-center my-8 gap-16">
         {config.sponsors.map((sponsor: any, i: number)=>
           <a href={sponsor.url} target="_blank" key={i} className="m-4">
-            <img className="w-32 sm:w-64 mb-4" alt={sponsor.name} src={sponsor.logo}></img>
+            <img className="w-32 sm:w-96 mb-4 dark:hidden" alt={sponsor.name} src={sponsor.logo}></img>
+            <img className="w-32 sm:w-96 mb-4 hidden dark:block" alt={sponsor.name} src={sponsor.logo_dark}></img>
           </a>
         )}
       </div>

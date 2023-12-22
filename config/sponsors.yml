@@ -15,17 +15,18 @@ subtitle: >
 #  The name is the name of the sponsor.
 #  The url is the link to the sponsor's website.
 #  The logo is the file path relative to the 'public' folder.
+#  The logo_dark is the file path relative to the 'public' folder. This is used when the user has dark mode enabled.
 sponsors:
   - name: "Amazon"
-    url: "https://www.google.com"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png"
-  - name: "Amazon"
-    url: "https://www.google.com"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png"
-  - name: "Amazon"
-    url: "https://www.google.com"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png"
-  - name: "Amazon"
-    url: "https://www.google.com"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png"
+    url: "https://www.amazon.com/"
+    logo: "/imgs/sponsors/Amazon_logo.svg"
+    logo_dark: "/imgs/sponsors/Amazon-logo-dark.webp"
+  - name: "Bayer"
+    url: "https://www.bayer.com/en/"
+    logo: "/imgs/sponsors/Logo_Bayer.svg"
+    logo_dark: "/imgs/sponsors/bayer_dark_mode.png"
+  - name: "Leidos"
+    url: "https://www.leidos.com/"
+    logo: "/imgs/sponsors/Leidos_logo_2013.svg"
+    logo_dark: "/imgs/sponsors/Leidos_logo_2013-dark.svg"
   

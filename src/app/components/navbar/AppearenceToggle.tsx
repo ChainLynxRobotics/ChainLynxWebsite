@@ -9,7 +9,7 @@ const AppearanceToggle = () => {
         if (localStorage.getItem('theme') === 'dark') {
             setDarkMode(true);
         } else {
-            setDarkMode(false);
+            setDarkMode(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
         }
     }, []);
 

@@ -1,6 +1,5 @@
 import { getConfig, parseMD, parseMDInline } from "../util/configReader";
 import Footer from "../components/Footer";
-import ImageCarousel from "../components/ImageCarousel";
 
 
 export default function Team() {
@@ -17,7 +16,7 @@ export default function Team() {
             {(config.sections.map((section: any) => (
                 <div id={section.id} className="max-w-4xl flex flex-col items-center markdown" key={section.id}>
                     <h1 dangerouslySetInnerHTML={parseMDInline(section.title)}></h1>
-                    <img src={section.picture} alt={section.title} className="max-w-2xl w-full"></img>
+                    <img src={section.picture} alt={section.title} className="max-w-4xl w-full"></img>
                 </div>
             )))}
             <Footer />

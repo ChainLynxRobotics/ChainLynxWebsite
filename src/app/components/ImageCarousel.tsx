@@ -21,7 +21,7 @@ export default function ImageCarousel({ pictures, autoScroll }: { pictures: { pa
                         {pictures.map((pic: any, i)=>
                             <div key={i} className="w-full flex-shrink-0 group relative overflow-hidden">
                                 <img src={pic.url} alt={pic.desc} className="object-cover object-center w-full h-full flex-shrink-0 bg-black"></img>
-                                <div className="absolute left-0 bottom-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform bg-black bg-opacity-75 text-gray-200 p-2">
+                                <div className="absolute left-0 bottom-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform bg-black bg-opacity-75 text-gray-200 p-2" style={{display: pic.desc ? "" : "none"}}>
                                     {pic.desc}
                                 </div>
                             </div>

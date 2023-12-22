@@ -25,15 +25,13 @@ export default function RootLayout({
       <body className={font.className+' min-h-screen bg-slate-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100'}>
         <Navbar>
           <NavbarItem title="Home" href="/"></NavbarItem>
-          <NavbarDropdown title="About" href='/about'>
-            <NavbarDropdownItem title="Our Team" href="/about"></NavbarDropdownItem>
-            <NavbarDropdownItem title="Club Structure" href="/about#structure"></NavbarDropdownItem>
-          </NavbarDropdown>
-          <NavbarItem title="Sponsors" href="sponsors"></NavbarItem>
+          <NavbarItem title="About" href="/about"></NavbarItem>
+          <NavbarItem title="Sponsors" href="/sponsors"></NavbarItem>
           <NavbarDropdown title="Resources" href={["/robot","/calendar"]}>
             <NavbarDropdownItem title="Our Robot" href="/robot"></NavbarDropdownItem>
             <NavbarDropdownItem title="Calendar" href="/calendar"></NavbarDropdownItem>
           </NavbarDropdown>
+          <NavbarItem title="Join" href="/join"></NavbarItem>
           <AppearanceToggle />
         </Navbar>
         {children}

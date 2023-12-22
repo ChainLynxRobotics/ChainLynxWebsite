@@ -11,32 +11,24 @@ subtitle: "Our robot is designed and built by our students, with the help of our
 
 # Sections of the page, each one gets a title and an image gallery.
 sections:
-  - id: "2022-2023" # This id is used for the table of contents, and for linking to the section. For example, this would be /about#2022-2023 (NOTE: This value must be unique and cannot contain spaces)
+  - id: "2022-2023" # This id is used for the table of contents, and for linking to the section. For example, this would be /robot#2022-2023 (NOTE: This value must be unique and cannot contain spaces)
     title: "2022 - 2023 Design" # The title of the section, displayed above the photos
     pictures: # Image to show, this follows the same rules as the pictures section in config/index.yml
-      - desc: "Picture 1 (temp description)"
-        url: "/imgs/index/kickoff.jpg"
-      - desc: "Picture 2 (temp description)"
-        url: "/imgs/index/kickoff.jpg"
-      - desc: "Picture 3 (temp description)"
-        url: "/imgs/index/kickoff.jpg"
+      - desc: ""
+        url: "/imgs/robot/2022-2023/DSC_4997.JPG"
+      - desc: ""
+        url: "/imgs/robot/2022-2023/DSC_5087.JPG"
+      - desc: ""
+        url: "/imgs/robot/2022-2023/DSC_5093.JPG"
+      - desc: ""
+        url: "/imgs/robot/2022-2023/ED101351.jpg"
 
   - id: "2021-2022"
     title: "2021 - 2022 Design"
     pictures:
-      - desc: "Picture 1 (temp description)"
-        url: "/imgs/index/kickoff.jpg"
-      - desc: "Picture 2 (temp description)"
-        url: "/imgs/index/kickoff.jpg"
-      - desc: "Picture 3 (temp description)"
-        url: "/imgs/index/kickoff.jpg"
-
-  - id: "2019-2020"
-    title: "2019 - 2020 Design"
-    pictures:
-      - desc: "Picture 1 (temp description)"
-        url: "/imgs/index/kickoff.jpg"
-      - desc: "Picture 2 (temp description)"
-        url: "/imgs/index/kickoff.jpg"
-      - desc: "Picture 3 (temp description)"
-        url: "/imgs/index/kickoff.jpg"
+      - desc: ""
+        url: "/imgs/robot/2021-2022/IMG_4597.jpg"
+      - desc: ""
+        url: "/imgs/robot/2021-2022/IMG_4677.jpg"
+      - desc: ""
+        url: "/imgs/robot/2021-2022/IMG_4739.jpg"

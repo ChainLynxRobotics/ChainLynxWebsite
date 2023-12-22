@@ -1,0 +1,13 @@
+# This file contains the configuration for the home (default path) page.
+
+# Everything in this file is listen in chronological order to how they appear on the page.
+# Both HTML and Markdown are supported in most values.
+
+
+# The large text at the top of the page.
+title: "Join Us!"
+# The smaller text below the title.
+subtitle: |
+  We meet in room 167 and 168, typically on Tuesdays and Thursdays from 3:45 to 5:30. See the [Calendar Page](/calendar) for more information on dates.
+  
+  Questions? Email our officers at [officers@chainlynx8248.com](mailto:officers@chainlynx8248.com)!

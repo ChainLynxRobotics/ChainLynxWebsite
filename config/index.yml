@@ -1,0 +1,30 @@
+# This file contains the configuration for the home (default path) page.
+
+# Everything in this file is listen in chronological order to how they appear on the page.
+# Both HTML and Markdown are supported in most values.
+
+
+# The large text at the top of the page.
+title: "Who is ChainLynx?"
+
+# The text below the title.
+about: >
+  ChainLynx 8248 is a **FIRST Robotics team** based at Lincoln High School, committed to providing a fun and collaborative environment for students to learn how to design, build, and code robots.
+  Through ChainLynx, students gain skills in CAD (Computer Aided Design) software, tool use, business, and leadership that will prepare them for future careers.
+
+# The pictures in the image carousel.
+#  The description is shown when the user hovers over the image.
+#  The url is the file path relative to the 'public' folder.
+pictures:
+  - desc: "Picture 1"
+    url: "/imgs/index/kickoff.jpg"
+  - desc: "Picture 2 fsjdklfasdfalksjdhflksa sahfdk  ffdsahdsahlsaeuhsa hjfdsadskjsahdf sahksajd fh hsafdj ahsjf sl"
+    url: "/imgs/index/kickoff.jpg"
+  - desc: "Picture 3"
+    url: "/imgs/index/kickoff.jpg"
+  - desc: "Picture 4 gsdfgfsjfasdfasdfdklfasdfalksjdhflksa sahfdk  ffdsahdsahlsaeuhsa hjfdsadskjsahdf sahksajd fh hsafdj ahsjf sl"
+    url: "/imgs/index/kickoff.jpg"
+  - desc: "Picture 5"
+    url: "/imgs/index/kickoff.jpg"
+  - desc: "Picture 6 fsjdklfasdfalksjdhflksa sahfdk  ffdsahdsahlsaeuhsa hjfdsadskjsahdf sahksajd fh hsafdj ahsjf sl"
+    url: "/imgs/index/kickoff.jpg"

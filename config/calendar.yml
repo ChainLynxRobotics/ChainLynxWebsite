@@ -1,0 +1,13 @@
+# This file contains the configuration for the home (default path) page.
+
+# Everything in this file is listen in chronological order to how they appear on the page.
+# Both HTML and Markdown are supported in most values.
+
+
+# The large text at the top of the page.
+title: "Calendar"
+# The smaller text below the title.
+subtitle: "Our calendar is updated regularly with our upcoming events and meetings."
+
+# Google Calendar embed link
+embed: "https://calendar.google.com/calendar/embed?src=c_a170726c58fa6702be2169e4e62a29ee945665a25cb14d6c34813fae7d52a935%40group.calendar.google.com&ctz=America%2FLos_Angeles"

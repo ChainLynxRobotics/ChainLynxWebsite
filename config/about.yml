@@ -1,0 +1,31 @@
+# This file contains the configuration for the about (/about) page.
+
+# Everything in this file is listen in chronological order to how they appear on the page.
+# Both HTML and Markdown are supported in most values.
+
+# The initial about section, follows the same format as the sections below. (Without the id field)
+title: "About ChainLynx"
+content: "!file ./content/about.md"
+
+# Sections of the page to display. Each section gets its own item in the table of contents at the top.
+sections:
+
+  - id: "2022-2023" # This id is used for the table of contents, and for linking to the section. For example, this would be /about#2022-2023
+    title: "2022-2023 Season" # The title of the section, displayed in the table of contents.
+    content: "!file ./content/2022-2023.md" # The content of the section. Use !file [file path] to load data from another file relative to the location of this file
+
+  - id: "2021-2022"
+    title: "2021-2022 Season"
+    content: "!file ./content/2021-2022.md"
+
+  - id: "2020-2021"
+    title: "2020-2021 Season"
+    content: "!file ./content/2020-2021.md"
+
+  - id: "2019-2020"
+    title: "2019-2020 Season"
+    content: "!file ./content/2019-2020.md"
+
+  - id: "structure"
+    title: "Club Structure"
+    content: "!file ./content/club-structure.md"

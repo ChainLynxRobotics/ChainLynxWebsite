@@ -10,11 +10,7 @@ export default function About() {
 
     return (
         <main className="flex flex-col items-center justify-between p-4 pt-8 sm:p-12 pb-0 sm:pb-0 gap-12 relative">
-            <div id="about" className="max-w-4xl flex flex-col items-center markdown">
-                <h1 dangerouslySetInnerHTML={parseMDInline(config.title)}></h1>
-                <div className="" dangerouslySetInnerHTML={parseMD(config.content)}></div>
-            </div>
-            <div className="w-full max-w-4xl">
+            <div className="w-full max-w-5xl">
                 <h2 className="text-2xl mb-2">Jump To:</h2>
                 <ul className="markdown list-disc ml-4">
                     {(config.sections.map((section: any) => (
@@ -25,9 +21,9 @@ export default function About() {
                 </ul>
             </div>
             {(config.sections.map((section: any) => (
-                <div id={section.id} className="max-w-4xl flex flex-col items-center markdown" key={section.id}>
-                    <h1 dangerouslySetInnerHTML={parseMDInline(section.title)}></h1>
-                    <div className="" dangerouslySetInnerHTML={parseMD(section.content)}></div>
+                <div id={section.id} className="max-w-5xl flex flex-col items-center" key={section.id}>
+                    <h1 className="text-4xl mb-6 markdown" dangerouslySetInnerHTML={parseMDInline(section.title)}></h1>
+                    <div className="markdown" dangerouslySetInnerHTML={parseMD(section.content)}></div>
                 </div>
             )))}
             <Footer />

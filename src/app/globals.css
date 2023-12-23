@@ -26,10 +26,6 @@ html.dark {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.markdown {
-    @apply text-left;
-}
-
 .markdown p {
     @apply mb-6;
     text-indent: 2em;
@@ -40,27 +36,27 @@ html.dark {
 }
 
 .markdown h1 {
-    @apply text-3xl font-semibold mb-5;
+    @apply text-3xl mb-5;
 }
 
 .markdown h2 {
-    @apply text-2xl font-semibold mb-4;
+    @apply text-2xl mb-4;
 }
 
 .markdown h3 {
-    @apply text-xl font-semibold mb-3;
+    @apply text-xl mb-3;
 }
 
 .markdown h4 {
-    @apply text-lg font-semibold mb-2;
+    @apply text-lg mb-2;
 }
 
 .markdown h5 {
-    @apply text-base font-semibold mb-1;
+    @apply text-base mb-1;
 }
 
 .markdown h6 {
-    @apply text-sm font-semibold mb-1;
+    @apply text-sm mb-1;
 }
 
 .markdown a {

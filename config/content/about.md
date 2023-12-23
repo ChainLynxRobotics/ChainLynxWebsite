@@ -1,3 +1,3 @@
-In 2019, the ChainLynx team was formed with the goal of encouraging students' development of STEM and leadership skills. This is done through participating in a worldwide robotics competition hosted by the organization FIRST® (For Inspiration and Recognition of Science and Technology).
+In 2019, the ChainLynx team was formed to encourage students' development of STEM and leadership skills. This is done through participating in a worldwide robotics competition hosted by the organization FIRST® (For Inspiration and Recognition of Science and Technology).
 
-To do so requires using computer aided design, coding, fundraising and outreach, as well as actually building the robot. This is a large task that requires months of work, but rewards members with experience in STEM, confidence, and access to a wonderful community.
+Doing so requires using computer-aided design, coding, fundraising and outreach, and building the robot. This large task requires months of work but rewards members with experience in STEM, confidence, and access to a wonderful community.

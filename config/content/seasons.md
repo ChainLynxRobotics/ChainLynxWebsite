@@ -1,15 +1,11 @@
 
-<!-- ## <center>2023-2024</center>
-
-Type Here
-
 ## <center>2022-2023</center>
 
-Type Here
+We started the season on a full battery following our most successful season so far. We got our CNC router at the start of the year and were prepared to use it for the new season. Kickoff was full of excitement for our first pick-and-place game in a long time. We created a unique design with an elevator and a four-bar system. For the first time, we implemented our drivetrain with Swerve. With this design, we were awarded the Industrial Design Award by FIRST WA. We made a lot of technical and team advancements this year and have been preparing for the 2023-2024 season. 
 
 ## <center>2021-2022</center>
 
-Type Here -->
+This year, our team had our first competition in 2 years. The Rapid React challenge focused on mobility and transportation. The team grew by an order of magnitude after great recruitment efforts. We competed in 2 competitions and won the Entrepreneurship Award and the Gracious Professionalism Award. We speedily made it to the District Championship for the first time alongside many older and established teams. We focused on organizing the team and wrote our first official constitution to prepare us for our future as a larger, more skillful team.
 
 ## <center>2020-2021</center>
 

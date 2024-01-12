@@ -1,15 +1,15 @@
 
-<!-- ## <center>2023-2024</center>
+## <center>2023-2024</center>
 
 Type Here
 
 ## <center>2022-2023</center>
 
-Type Here
+We started the season on a high coming off of our most successful season yet. We got our CNC router up in the year and was prepared to be used at the start of the season. Kick off that season was full of excitement because it was our first pick and place game in a long time. We created a unique design with an elevator and four bar with adapted every bot pick up and our first season using swerve. We were moderately successful in our direct events for not going any further. We made a lot of technical and team advancements this year and since then have been preparing for the 2023-2024 season.
 
 ## <center>2021-2022</center>
 
-Type Here -->
+Type Here
 
 ## <center>2020-2021</center>
 

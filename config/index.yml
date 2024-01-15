@@ -16,6 +16,10 @@ about: >
 #  The description is shown when the user hovers over the image.
 #  The url is the file path relative to the 'public' folder.
 pictures:
+  - desc: "Kickoff of the 2024 CRESCENDO competition"
+    url: "/imgs/index/ED101995.jpg"
+  - desc: "Strategizing for the 2024 CRESCENDO competition"
+    url: "/imgs/index/DSC_1073.JPG"
   - desc: "Pit crew during Bordie Charged 2023"
     url: "/imgs/index/pit_crew_bordie_charged_2023.jpg"
   - desc: "Our robot, 8248, prepared to compete during Bordie Charged 2023"

@@ -1,0 +1,7 @@
+# This file does not control a specific page of the site, but it is used to add custom redirects or shortened links to the site.
+
+redirects:
+  - source: /drive # The shortened link, relative to chainlynx8248.com, this one redirects chainlynx8248.com/drive to the google drive folder below
+    destination: "https://drive.google.com/drive/u/7/folders/1lzuXskvDsEkPuN7AdGFsjqeD_FtDbEOK"
+  - source: /sponsorpacket
+    destination: "https://docs.google.com/document/d/1RlGrOoRH6tXi9jlLulZJgw9Zkisgg9WqSXQK1TN0fnQ/edit?usp=sharing"

@@ -12,30 +12,67 @@ subtitle: >
   empower students to explore their passions through competitive robotics. If interested in sponsoring us, email [business@chainlynx8248.com](mailto:business@chainlynx8248.com).
   Also check out our [sponsorship packet](https://docs.google.com/document/d/1RlGrOoRH6tXi9jlLulZJgw9Zkisgg9WqSXQK1TN0fnQ/edit?usp=sharing) for more information.
 
+
+# Whether or not to display the confetti animation in the background on page load
+confetti: true
+
+
 # The sponsors to display.
-#  The name is the name of the sponsor.
-#  The url is the link to the sponsor's website.
-#  The logo is the file path relative to the 'public' folder.
-#  The logo_dark is the file path relative to the 'public' folder. This is used when the user has dark mode enabled.
+#- name        # (string) the name of the sponsor.
+#  tier        # (string) the tier of the sponsor, see the "tiers" section below.
+#  url         # (optional string) the link to the sponsor's website.
+#  logo        # (string) the file path relative to the 'public' folder.
+#  logo_dark   # (optional string) In dark mode, use this instead of the "logo" field.
+#  invert_dark # (optional boolean) In dark mode, invert the colors of the logo. Defaults false. Alternative to "logo_dark".
 sponsors:
-  - name: "Amazon"
-    url: "https://www.amazon.com/"
-    logo: "/imgs/sponsors/Amazon_logo.svg"
-    logo_dark: "/imgs/sponsors/Amazon-logo-dark.webp"
-  - name: "Seattle Schools CTE"
-    url: "https://www.seattleschools.org/departments/cte/"
-    logo: "/imgs/sponsors/SPSCTE_logo_color-1024x304.webp"
-    logo_dark: "/imgs/sponsors/SPSCTE_logo_color-1024x304-dark.png"
-  - name: "Bayer"
-    url: "https://www.bayer.com/en/"
-    logo: "/imgs/sponsors/Logo_Bayer.svg"
-    logo_dark: "/imgs/sponsors/bayer_dark_mode.png"
-  - name: "Electro Impact"
+  - name: "Genie"
+    tier: "2"
+    url: "https://www.genielift.com/"
+    logo: "/imgs/sponsors/Genie.png"
+    invert_dark: true
+  - name: "ElectroImpact"
+    tier: "4"
     url: "https://www.electroimpact.com/"
-    logo: "/imgs/sponsors/Electroimpact.png"
-    logo_dark: "/imgs/sponsors/Electroimpact-dark.png"
-  - name: "Leidos"
-    url: "https://www.leidos.com/"
-    logo: "/imgs/sponsors/Leidos_logo_2013.svg"
-    logo_dark: "/imgs/sponsors/Leidos_logo_2013-dark.svg"
+    logo: "/imgs/sponsors/ElectroImpact.png"
+    invert_dark: true
+  - name: "SPS CTE"
+    tier: "4"
+    url: "https://www.seattleschools.org/departments/cte/"
+    logo: "/imgs/sponsors/SPS_CTE.png"
+    invert_dark: true
+  - name: "Lincoln ASB"
+    tier: "4"
+    logo: "/imgs/sponsors/Lincoln_ASB.png"
+    invert_dark: true
+  - name: "CSR Marine"
+    tier: "2"
+    url: "https://csrmarine.com/"
+    logo: "/imgs/sponsors/CSR_Marine.png"
+    invert_dark: true
+  - name: "Key Bank"
+    tier: "2"
+    url: "https://www.key.com/"
+    logo: "/imgs/sponsors/Key_Bank.png"
+    invert_dark: true
+  - name: "Washington Office of Superintendent of Public Instruction"
+    tier: "5"
+    url: "https://www.k12.wa.us/"
+    logo: "/imgs/sponsors/OSPI.png"
+    invert_dark: true
+  
+
+# The tiers of sponsors mapped to the size of the logo, in a percentage of the typical size (320px in desktop, 256px in mobile)
+# The key is the tier, and the value is the size percentage.
+# The tiers are displayed in order from highest to lowest, with each tier on its own row.
+tiers:
+  - name: "5"
+    size: 100.0
+  - name: "4"
+    size: 90.0
+  - name: "3"
+    size: 80.0
+  - name: "2"
+    size: 40.0
+  - name: "1"
+    size: 20.0
   

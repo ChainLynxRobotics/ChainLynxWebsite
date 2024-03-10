@@ -1,4 +1,4 @@
-import Confetti from "../components/Confetti";
+import ConfettiSource from "../components/Confetti";
 import Footer from "../components/Footer";
 import { getConfig, parseMD, parseMDInline } from "../util/configReader";
 import Sponsor from "./Sponsor";
@@ -34,7 +34,7 @@ export default function Sponsors() {
         }
       </div>
       <Footer />
-      { config.confetti && <Confetti />}
+      { config.confetti && <ConfettiSource />}
     </main>
   )
 }

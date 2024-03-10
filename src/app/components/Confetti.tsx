@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Confetti from 'react-confetti'
 
-export default () => {
+export default function ConfettiSource() {
     
     const [width, setWidth] = useState(0)
     const [height, setHeight] = useState(0)

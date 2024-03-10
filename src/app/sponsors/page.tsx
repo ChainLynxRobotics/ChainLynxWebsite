@@ -1,5 +1,7 @@
+import Confetti from "../components/Confetti";
 import Footer from "../components/Footer";
 import { getConfig, parseMD, parseMDInline } from "../util/configReader";
+import Sponsor from "./Sponsor";
 
 
 export default function Sponsors() {
@@ -12,15 +14,27 @@ export default function Sponsors() {
           <h1 dangerouslySetInnerHTML={parseMDInline(config.title)}></h1>
           <div className="text-center" dangerouslySetInnerHTML={parseMD(config.subtitle)}></div>
       </div>
-      <div className="max-w-7xl flex flex-wrap justify-center items-center my-8 gap-12">
-        {config.sponsors.map((sponsor: any, i: number)=>
-          <a href={sponsor.url} target="_blank" title={sponsor.name} key={i} className="m-4">
-            <img className="w-64 sm:w-80 mb-4 dark:hidden" alt={sponsor.name} src={sponsor.logo}></img>
-            <img className="w-64 sm:w-80 mb-4 hidden dark:block" alt={sponsor.name} src={sponsor.logo_dark}></img>
-          </a>
-        )}
+      <div className="max-w-7xl flex flex-col justify-center items-center my-8 gap-16">
+        {config.tiers ? 
+          config.tiers.map((tier: any)=>
+            <div key={tier.name} className="flex flex-wrap justify-center items-center gap-8">
+              {config.sponsors
+                .filter((sponsor: any)=>sponsor.tier===tier.name)
+                .map((sponsor: any, i: number)=>
+                  <Sponsor key={i} sponsor={sponsor} size={tier.size}/>
+              )}
+            </div>
+          )
+        :
+          <div className="flex flex-wrap justify-center items-center gap-8">
+            {config.sponsors.map((sponsor: any, i: number)=>
+              <Sponsor key={i} sponsor={sponsor} size={100}/>
+            )}
+          </div>
+        }
       </div>
       <Footer />
+      { config.confetti && <Confetti />}
     </main>
   )
 }

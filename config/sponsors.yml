@@ -25,11 +25,6 @@ confetti: true
 #  logo_dark   # (optional string) In dark mode, use this instead of the "logo" field.
 #  invert_dark # (optional boolean) In dark mode, invert the colors of the logo. Defaults false. Alternative to "logo_dark".
 sponsors:
-  - name: "Genie"
-    tier: "2"
-    url: "https://www.genielift.com/"
-    logo: "/imgs/sponsors/Genie.png"
-    invert_dark: true
   - name: "ElectroImpact"
     tier: "4"
     url: "https://www.electroimpact.com/"
@@ -55,7 +50,7 @@ sponsors:
     logo: "/imgs/sponsors/Key_Bank.png"
     invert_dark: true
   - name: "Washington Office of Superintendent of Public Instruction"
-    tier: "5"
+    tier: "4"
     url: "https://www.k12.wa.us/"
     logo: "/imgs/sponsors/OSPI.png"
     invert_dark: true

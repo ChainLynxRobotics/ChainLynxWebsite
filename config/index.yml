@@ -16,6 +16,8 @@ about: >
 #  The description is shown when the user hovers over the image.
 #  The url is the file path relative to the 'public' folder.
 pictures:
+  - desc: "Chainlynx 2024 Glacier Peak pit"
+    url: "/imgs/index/Glacierpeakpit.jpg"
   - desc: "Kickoff of the 2024 CRESCENDO competition"
     url: "/imgs/index/ED101995.jpg"
   - desc: "Strategizing for the 2024 CRESCENDO competition"
@@ -36,3 +38,4 @@ pictures:
     url: "/imgs/index/20230225_154138.jpg"
   - desc: "Watching the 2021-2022 district event"
     url: "/imgs/index/DSC_0056.jpg"
+  

@@ -11,9 +11,20 @@ subtitle: "Our robot is designed and built by our students, with the help of our
 
 # Sections of the page, each one gets a title and an image gallery.
 sections:
-  - id: "2022-2023" # This id is used for the table of contents, and for linking to the section. For example, this would be /robot#2022-2023 (NOTE: This value must be unique and cannot contain spaces)
-    title: "2022 - 2023 Design" # The title of the section, displayed above the photos
+  - id: "2023-2024" # This id is used for the table of contents, and for linking to the section. For example, this would be /robot#2022-2023 (NOTE: This value must be unique and cannot contain spaces)
+    title: "2023 - 2024 Design" # The title of the section, displayed above the photos
     pictures: # Image to show, this follows the same rules as the pictures section in config/index.yml
+      - desc: "Robot from the top"
+        url: "/imgs/robot/2023-2024/Robottop.jpg"
+      - desc: "Robot from the side"
+        url: "/imgs/robot/2023-2024/Robotside.jpg"
+      - desc: "Chainlynx robot at Glacier Peak competition"
+        url: "/imgs/robot/2023-2024/Incompition.jpg"
+
+
+  - id: "2022-2023" 
+    title: "2022 - 2023 Design" 
+    pictures: 
       - desc: ""
         url: "/imgs/robot/2022-2023/DSC_4997.JPG"
       - desc: ""
@@ -32,3 +43,4 @@ sections:
         url: "/imgs/robot/2021-2022/IMG_4677.jpg"
       - desc: ""
         url: "/imgs/robot/2021-2022/IMG_4739.jpg"
+

@@ -17,13 +17,15 @@ subtitle: >
 confetti: true
 
 
-# The sponsors to display.
-#- name        # (string) the name of the sponsor.
-#  tier        # (string) the tier of the sponsor, see the "tiers" section below.
-#  url         # (optional string) the link to the sponsor's website.
-#  logo        # (string) the file path relative to the 'public' folder.
-#  logo_dark   # (optional string) In dark mode, use this instead of the "logo" field.
-#  invert_dark # (optional boolean) In dark mode, invert the colors of the logo. Defaults false. Alternative to "logo_dark".
+# The sponsors to display. Follows the format below.
+#
+#  - name        # (string) the name of the sponsor.
+#    tier        # (string) the tier of the sponsor, see the "tiers" section below.
+#    url         # (optional string) the link to the sponsor's website.
+#    logo        # (string) the file path relative to the 'public' folder.
+#    logo_dark   # (optional string) In dark mode, use this instead of the "logo" field.
+#    invert_dark # (optional boolean) In dark mode, invert the colors of the logo. Defaults false. Alternative to "logo_dark".
+#
 sponsors:
   - name: "ElectroImpact"
     tier: "4"
@@ -53,6 +55,11 @@ sponsors:
     tier: "4"
     url: "https://www.k12.wa.us/"
     logo: "/imgs/sponsors/OSPI.png"
+    invert_dark: true
+  - name: "Genie"
+    tier: "4"
+    url: "https://www.genielift.com/"
+    logo: "/imgs/sponsors/Genie.png"
     invert_dark: true
   
 

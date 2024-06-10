@@ -16,6 +16,8 @@ about: >
 #  The description is shown when the user hovers over the image.
 #  The url is the file path relative to the 'public' folder.
 pictures:
+  - desc: "Seniors at Sammimish 2024 celebrating their last competition"
+    url: "/imgs/index/ED102472.webp"
   - desc: "Chainlynx 2024 Glacier Peak pit"
     url: "/imgs/index/Glacierpeakpit.jpg"
   - desc: "Kickoff of the 2024 CRESCENDO competition"
@@ -39,3 +41,8 @@ pictures:
   - desc: "Watching the 2021-2022 district event"
     url: "/imgs/index/DSC_0056.jpg"
   
+
+plz_donate: >
+  As a student-run team, we rely on donations and [sponsors](/sponsors) to run. 
+  Please consider donating to ChainLynx 8248 to help us continue to provide a 
+  enriching and educational experience for our members. ✨

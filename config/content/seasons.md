@@ -1,4 +1,9 @@
 
+# <center>2023-2024</center>
+
+On kickoff we waited in suspense for the drop and First delivered. We wrote up our list of priorities, made a discussion board for ideas, and disbanded for the day with songs in our heads. Our music-themed challenge gave us a lot of ideas for robots, and we spent the second half of kickoff brainstorming how we could get in tune and hit the right notes. During the build season, we designed and utilized a large number of 3d printed parts on our robot and engineered effective quick-swap bumpers. Those combined earned us the Industrial Design award at Glacier Peak for the second time in a row. At Glacier Peak, we were the first backup bot, and against all odds, we were substituted in on the second out of three finals matches when Team 360 had to make emergency repairs. When 360 was done, the alliance won the final round and brought the now alliance of four a blue banner! All of us on ChainLynx are extremely grateful for this season and have prepared to better manage our time and resources next season for the upcoming water games.
+
+
 ## <center>2022-2023</center>
 
 We started the season on a full battery following our most successful season so far. We got our CNC router at the start of the year and were prepared to use it for the new season. Kickoff was full of excitement for our first pick-and-place game in a long time. We created a unique design with an elevator and a four-bar system. For the first time, we implemented our drivetrain with Swerve. With this design, we were awarded the Industrial Design Award by FIRST WA. We made a lot of technical and team advancements this year and have been preparing for the 2023-2024 season. 

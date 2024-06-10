@@ -27,18 +27,27 @@ export function getConfig(loc: string): any {
                 return getConfig(path.resolve(configFile, '..', value.slice(9)));
             }
             // !file <file> will include the contents of <file> (relative to the current yml file) as a string
-            if (value.startsWith('!file ')) {
+            else if (value.startsWith('!file ')) {
                 return fs.readFileSync(path.resolve(configFile, '..', value.slice(6)), {encoding: 'utf-8'});
+            } 
+            // %<key>% will be replaced with the value of <key> from the global config
+            else if (value.includes('%') && loc !== 'global.yml') {
+                const globalConfig = getConfig('global.yml');
+                return value.replace(/%(\w+)%/g, (match, key) => {
+                    return globalConfig[key] || match;
+                });
             }
+            
+
         }
         return value;
     });
 }
 
 export function parseMD(val: string): {__html: string} {
-    return {__html: converter.render(val)};
+    return {__html: converter.render(val || "")};
 }
 
 export function parseMDInline(val: string): {__html: string} {
-    return {__html: converter.renderInline(val)};
+    return {__html: converter.renderInline(val || "")};
 }

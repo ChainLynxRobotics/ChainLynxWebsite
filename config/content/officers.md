@@ -1,29 +1,33 @@
+<!-- This is a comment, this text will not appear on the page -->
 
-
-## <center>President: Jairen Dorsey</center>
+### <center>**President:** Colin Bragg</center>
 
 <!-- This person works with the team to conduct meetings and acts as the main line of communication between the team and the head mentor. In addition to this, they help coordinate the election process (but don’t count/interact with the votes) and represent the club. -->
 
-## <center>Business & Marketing Officer: Otto Franco</center>
+### <center>**Vice President:** Kira Outhred</center>
 
 <!-- TODO: Description of the role -->
 
-## <center>Controls Department: Iris Litiu</center>
+### <center>**Business & Marketing Officer:** Otto Franco</center>
 
 <!-- TODO: Description of the role -->
 
-## <center>Mechanical Officers: Julian Shah</center>
+### <center>**Controls Department:** Tyler Place</center>
 
 <!-- TODO: Description of the role -->
 
-## <center>Logistics Officer: Logan Blondin</center>
+### <center>**Mechanical Officers:** Jude Hunter</center>
 
 <!-- TODO: Description of the role -->
 
-## <center>Safety Officer: Andreas Bays</center>
+### <center>**Logistics Officer:** Tessabell Sheldon</center>
 
 <!-- TODO: Description of the role -->
 
-## <center>Strategy Officer: Colin Bragg</center>
+### <center>**Safety Officer:** Andreas Bays</center>
+
+<!-- TODO: Description of the role -->
+
+### <center>**Strategy Officer:** Theo Payette</center>
 
 <!-- TODO: Description of the role -->

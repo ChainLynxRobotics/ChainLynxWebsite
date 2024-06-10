@@ -10,10 +10,12 @@ import { getConfig } from './util/configReader'
 
 const font = Poppins({weight: ["400","600","700"], subsets: ["latin-ext"]})
 
+const globalConfig = getConfig('global.yml');
+
 export const metadata: Metadata = {
-  title: 'ChainLynx 8248',
-  description: 'ChainLynx 8248 is a FIRST Robotics team based at Lincoln High School, committed to providing a fun and collaborative environment for students to learn how to design, build, and code robots.',
-  icons: "/imgs/nav_logo.png",
+  title: globalConfig.website_title,
+  description: globalConfig.website_description,
+  icons: globalConfig.website_icon,
 }
 
 export default function RootLayout({

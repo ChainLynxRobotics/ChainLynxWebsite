@@ -11,8 +11,8 @@ subtitle: |
   Our sponsor’s generous support allows our team to not just exist but thrive. Through their monetary, material, technical, and mentor support, our sponsors empower students to explore their passions through competitive robotics. If interested in sponsoring us, email [business@chainlynx8248.com](mailto:business@chainlynx8248.com).
   Also check out our [sponsorship packet](/Sponsorship_Packet.pdf) for more information.
   
-  For personal donations, please visit our [Tax Deductible Donations Page](https://secure.givelively.org/donate/washington-first-robotics/frc-chainlynx-8248) to help support the team!
-
+  For personal donations, please visit our [Tax Deductible Donations Page](%donation_link%) to help support the team!
+# In the text above, the "%donation_link%" will be replaced with the value of the "donation_link" field in the global configuration file.
 
 # Whether or not to display the confetti animation in the background on page load
 confetti: true

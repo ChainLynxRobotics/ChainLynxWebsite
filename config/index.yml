@@ -16,6 +16,8 @@ about: >
 #  The description is shown when the user hovers over the image.
 #  The url is the file path relative to the 'public' folder.
 pictures:
+  - desc: "Seniors at Sammimish 2024 celebrating their last competition"
+    url: "/imgs/index/ED102472.webp"
   - desc: "Chainlynx 2024 Glacier Peak pit"
     url: "/imgs/index/Glacierpeakpit.jpg"
   - desc: "Kickoff of the 2024 CRESCENDO competition"

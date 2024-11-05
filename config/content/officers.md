@@ -24,7 +24,7 @@
 
 <!-- TODO: Description of the role -->
 
-### <center>**Safety Officer:** Andreas Bays</center>
+### <center>**Safety Officer:** August Reimers</center>
 
 <!-- TODO: Description of the role -->
 

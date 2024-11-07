@@ -16,6 +16,12 @@ about: >
 #  The description is shown when the user hovers over the image.
 #  The url is the file path relative to the 'public' folder.
 pictures:
+  - desc: "Loading the robot onto the field at the 2024 Girls Gen competition"
+    url: "/imgs/index/DSC06805.webp"
+  - desc: "ChainLynx members strategizing in the pit"
+    url: "/imgs/index/DSC06838.webp"
+  - desc: "Gayboys scouting the matches at Girls Gen"
+    url: "/imgs/index/DSC06778.webp"
   - desc: "Seniors at Sammimish 2024 celebrating their last competition"
     url: "/imgs/index/ED102472.webp"
   - desc: "Chainlynx 2024 Glacier Peak pit"
@@ -34,12 +40,6 @@ pictures:
     url: "/imgs/index/DSC_5003.JPG"
   - desc: "Building of the robot during the 2021-2022 season"
     url: "/imgs/index/robot4.jpg"
-  - desc: "Kickoff during the 2022-2023 season"
-    url: "/imgs/index/2023-01-07 FRC Kickoff 260.JPG"
-  - desc: "ChainLynx team members working on the robot during the 2022-2023 season"
-    url: "/imgs/index/20230225_154138.jpg"
-  - desc: "Watching the 2021-2022 district event"
-    url: "/imgs/index/DSC_0056.jpg"
   
 
 plz_donate: >

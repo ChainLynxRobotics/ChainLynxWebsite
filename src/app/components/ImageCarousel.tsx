@@ -26,7 +26,7 @@ export default function ImageCarousel({ pictures, autoScroll, fullPreview }: { p
                     <div className="flex transition-transform duration-500" style={{transform: `translateX(${current*-100}%)`}} onClick={()=>setShowAlt(old=>!old)}>
                         {pictures.map((pic: any, i)=>
                             <div key={i} className="w-full flex-shrink-0 group relative overflow-hidden">
-                                <img src={pic.url} alt={pic.desc} loading={i == 0 ? 'eager' : 'lazy'} className="object-cover object-center w-full h-full flex-shrink-0 bg-black"></img>
+                                <img src={pic.url} alt={pic.desc} loading={i == 0 ? 'eager' : 'lazy'} className="object-cover object-center w-full h-full flex-shrink-0 bg-slate-100 dark:bg-gray-800"></img>
                                 <div className={`absolute left-0 bottom-0 right-0 ${!showAlt && 'translate-y-full group-hover:translate-y-0'} transition-transform bg-black bg-opacity-75 text-gray-200 p-2`} style={{display: pic.desc ? "" : "none"}}>
                                     {pic.desc}
                                 </div>

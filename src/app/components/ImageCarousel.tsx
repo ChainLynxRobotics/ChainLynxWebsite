@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-export default function ImageCarousel({ pictures, autoScroll, fullPreview }: { pictures: { path: string, desc: string }[], autoScroll?: boolean, fullPreview?: boolean}) {
+export default function ImageCarousel({ pictures, autoScroll, fullPreview }: { pictures: { url: string, desc: string }[], autoScroll?: boolean, fullPreview?: boolean}) {
 
     const [current, setCurrent] = useState(0);
     const [showAlt, setShowAlt] = useState(false);

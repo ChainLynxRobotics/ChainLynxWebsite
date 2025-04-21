@@ -29,8 +29,7 @@ export function getConfig(loc: string): unknown {
         return fs.readFileSync(path.resolve(configFile, '..', value.slice(6)), {
           encoding: 'utf-8',
         });
-      }
-      else if (value.includes('%') && loc !== 'global.yml') {
+      } else if (value.includes('%') && loc !== 'global.yml') {
         const globalConfig = getConfig('global.yml');
         return value.replace(/%(\w+)%/g, (match, key: keyof IGlobalConfig) => {
           return globalConfig[key] !== undefined ? globalConfig[key] : match;

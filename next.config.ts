@@ -2,7 +2,7 @@ import { NextConfig } from 'next';
 import { getConfig } from './src/app/util/configReader';
 import NextBundleAnalyzer from '@next/bundle-analyzer';
 const withBundleAnalyzer = NextBundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
+  enabled: true,
 });
 const nextConfig: NextConfig = {
   async redirects() {
@@ -23,4 +23,6 @@ const nextConfig: NextConfig = {
     }
   },
 };
-export default withBundleAnalyzer(nextConfig);
+export default process.env.ANALYZE === 'true'
+  ? withBundleAnalyzer(nextConfig)
+  : nextConfig;

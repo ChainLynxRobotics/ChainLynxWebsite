@@ -33,3 +33,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# auto genned types (regen on each use)
+src/types/*.d.ts
+scripts/typegen.js

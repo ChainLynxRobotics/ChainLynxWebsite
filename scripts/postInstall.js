@@ -24,7 +24,7 @@ await Promise.all([
   }
 });
 if (process.platform === 'win32') {
-  exec(`${packageManager} run postInstall:win`);
+  exec(`${packageManager} run postinstall:win`);
 } else {
-  exec(`${packageManager} run postInstall:nix`);
+  exec(`${packageManager} run postinstall:nix`);
 }

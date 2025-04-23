@@ -11,7 +11,7 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "postinstall": "node scripts/postInstall.js",
-    "postinstall:win": "tsc scripts/typegen.ts --target ESNext --moduleResolution nodenext --module NodeNext && node scripts/typegen.js && del scripts/typegen.js",
+    "postinstall:win": "tsc scripts/typegen.ts --target ESNext --moduleResolution nodenext --module NodeNext && node scripts/typegen.js && del scripts\\typegen.js",
     "postinstall:nix": "tsc scripts/typegen.ts --target ESNext --moduleResolution nodenext --module NodeNext && node scripts/typegen.js && rm scripts/typegen.js"
   },
   "dependencies": {

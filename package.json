@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
-    "build:analyze": "ANALYZE=true next build; node analyzeHost.js",
+    "build:analyze": "cross-env ANALYZE=true next build && node scripts/analyzeHost.js",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
@@ -33,6 +33,7 @@
     "@types/react-dom": "^19.1.2",
     "@typescript-eslint/eslint-plugin": "^8.30.1",
     "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
     "eslint": "^9.25.0",
     "eslint-config-next": "15.3.1",
     "eslint-config-prettier": "^10.1.2",

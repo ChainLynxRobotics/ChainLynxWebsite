@@ -39,7 +39,7 @@ export default function Home() {
 
       <ImageCarousel pictures={config.pictures} autoScroll></ImageCarousel>
 
-      <div className="mt-14 mb-8 flex flex-col items-center gap-4 rounded-lg border-gray-200 bg-white px-4 py-8 shadow-lg dark:border-gray-700 dark:bg-gray-900">
+      <div className="mt-14 mb-8 flex flex-col items-center gap-4 rounded-lg border-neutral-200 bg-white px-4 py-8 shadow-lg dark:border-neutral-700 dark:bg-neutral-900">
         <p
           className="markdown max-w-3xl text-center sm:text-lg"
           dangerouslySetInnerHTML={parseMDInline(config.plz_donate)}

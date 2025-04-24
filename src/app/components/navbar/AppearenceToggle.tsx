@@ -28,7 +28,7 @@ const AppearanceToggle = () => {
 
   return (
     <li className="mt-2 text-center md:mt-0">
-      <button className="" onClick={() => setDarkMode(!darkMode)}>
+      <button className="cursor-pointer" onClick={() => setDarkMode(!darkMode)}>
         {!darkMode ? (
           // Sun Icon
           <svg

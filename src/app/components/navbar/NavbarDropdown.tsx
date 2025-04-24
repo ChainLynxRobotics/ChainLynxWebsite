@@ -43,7 +43,7 @@ const NavbarDropdown = ({
       <button
         ref={button}
         onClick={() => setToggled(!toggled)}
-        className={`flex w-full items-center justify-between rounded py-2 pr-4 pl-3 md:border-0 ${current ? 'bg-blue-700 text-white md:bg-transparent md:p-0 md:text-blue-700 dark:bg-blue-600 md:dark:bg-transparent md:dark:text-blue-500' : 'text-gray-900 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500'}`}
+        className={`flex w-full items-center justify-between rounded py-2 pr-4 pl-3 md:border-0 ${current ? 'bg-blue-700 text-white md:bg-transparent md:p-0 md:text-blue-700 dark:bg-blue-600 md:dark:bg-transparent md:dark:text-blue-500' : 'text-neutral-900 hover:bg-neutral-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500'}`}
       >
         {href ? (
           <Link href={href} onClick={e => e.stopPropagation()}>
@@ -69,9 +69,9 @@ const NavbarDropdown = ({
         </svg>
       </button>
       <div
-        className={`${toggled ? '' : 'hidden'} absolute z-10 w-44 rounded-lg bg-white font-normal shadow dark:bg-gray-700`}
+        className={`${toggled ? '' : 'hidden'} absolute z-10 w-44 rounded-lg bg-white font-normal shadow dark:bg-neutral-700`}
       >
-        <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
+        <ul className="py-2 text-sm text-neutral-700 dark:text-neutral-400">
           {children}
         </ul>
       </div>

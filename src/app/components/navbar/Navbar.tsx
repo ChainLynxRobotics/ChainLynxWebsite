@@ -39,7 +39,7 @@ const Navbar = ({ children }: { children: React.ReactNode }) => {
   return (
     <nav
       ref={nav}
-      className="sticky top-0 right-0 left-0 z-[9999] border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900"
+      className="sticky top-0 right-0 left-0 z-[9999] border-neutral-200 bg-white dark:border-neutral-700 dark:bg-neutral-900"
     >
       <div className="mx-auto flex max-w-screen-lg flex-wrap items-center justify-between p-4">
         <Link href="/" className="flex items-center">
@@ -57,7 +57,7 @@ const Navbar = ({ children }: { children: React.ReactNode }) => {
             setToggled(!toggled);
           }}
           type="button"
-          className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 focus:outline-none md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-neutral-500 hover:bg-neutral-100 focus:ring-2 focus:ring-neutral-200 focus:outline-none md:hidden dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:ring-neutral-600"
           aria-controls="navbar-dropdown"
           aria-expanded={toggled}
         >
@@ -81,7 +81,7 @@ const Navbar = ({ children }: { children: React.ReactNode }) => {
         <div
           className={`md:static ${toggled ? 'max-h-screen' : 'max-h-0'} h-full w-full overflow-x-hidden transition-all duration-200 ease-in md:max-h-screen md:w-auto`}
         >
-          <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:flex-row md:items-center md:space-x-8 md:border-0 md:bg-white md:p-0 dark:border-gray-700 dark:bg-gray-800 md:dark:bg-gray-900">
+          <ul className="mt-4 flex flex-col rounded-lg border border-neutral-100 bg-neutral-50 p-4 font-medium md:mt-0 md:flex-row md:items-center md:space-x-8 md:border-0 md:bg-white md:p-0 dark:border-neutral-700 dark:bg-neutral-800 md:dark:bg-neutral-900">
             {children}
           </ul>
         </div>

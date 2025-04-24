@@ -38,16 +38,16 @@ export default function ImageCarousel({
             {pictures.map((pic, i) => (
               <div
                 key={i}
-                className="group relative w-full flex-shrink-0 overflow-hidden"
+                className="group relative w-full shrink-0 overflow-hidden"
               >
                 <img
                   src={pic.url}
                   alt={pic.desc}
                   loading={i == 0 ? 'eager' : 'lazy'}
-                  className="h-full w-full flex-shrink-0 bg-slate-100 object-cover object-center dark:bg-gray-800"
+                  className="h-full w-full shrink-0 bg-neutral-100 object-cover object-center dark:bg-neutral-800"
                 ></img>
                 <div
-                  className={`absolute right-0 bottom-0 left-0 ${!showAlt && 'translate-y-full group-hover:translate-y-0'} bg-opacity-75 bg-black p-2 text-gray-200 transition-transform`}
+                  className={`absolute right-0 bottom-0 left-0 ${!showAlt && 'translate-y-full group-hover:translate-y-0'} bg-black/75 p-2 text-neutral-200 transition-transform`}
                   style={{ display: pic.desc ? '' : 'none' }}
                 >
                   {pic.desc}
@@ -56,7 +56,7 @@ export default function ImageCarousel({
             ))}
           </div>
           <button
-            className="bg-opacity-0 hover:bg-opacity-40 absolute top-0 bottom-0 left-0 w-12 bg-black text-4xl text-white opacity-75 transition"
+            className="bg-black/0 hover:bg-black/40 absolute top-0 bottom-0 left-0 w-12 text-4xl text-white opacity-75 transition"
             onClick={() =>
               setCurrent((current - 1 + pictures.length) % pictures.length)
             }
@@ -64,7 +64,7 @@ export default function ImageCarousel({
             &lt;
           </button>
           <button
-            className="bg-opacity-0 hover:bg-opacity-40 absolute top-0 right-0 bottom-0 w-12 bg-black text-4xl text-white opacity-75 transition"
+            className="bg-black/0 hover:bg-black/40 absolute top-0 right-0 bottom-0 w-12 text-4xl text-white opacity-75 transition"
             onClick={() => setCurrent((current + 1) % pictures.length)}
           >
             &gt;
@@ -73,7 +73,7 @@ export default function ImageCarousel({
       </div>
       {!fullPreview ? (
         <div className="thin-scrollbar scrollbar w-full max-w-4xl min-w-0 overflow-auto">
-          <div className="mx-auto mt-3 flex w-max flex-shrink-0 justify-center pb-1">
+          <div className="mx-auto mt-3 flex w-max shrink-0 justify-center pb-1">
             {pictures.map((pic, i) => (
               <button
                 key={i}
@@ -89,11 +89,11 @@ export default function ImageCarousel({
         </div>
       ) : (
         <div className="thin-scrollbar scrollbar w-full max-w-4xl min-w-0 overflow-auto">
-          <div className="mx-auto mt-3 flex w-max flex-shrink-0 justify-center gap-2 pb-1">
+          <div className="mx-auto mt-3 flex w-max shrink-0 justify-center gap-2 pb-1">
             {pictures.map((pic, i) => (
               <button
                 key={i}
-                className={`group flex-shrink-0 bg-black shadow-md transition-transform ${current != i ? 'scale-90' : 'scale-100'}`}
+                className={`group shrink-0 bg-black shadow-md transition-transform ${current != i ? 'scale-90' : 'scale-100'}`}
                 onClick={() => setCurrent(i)}
               >
                 <img

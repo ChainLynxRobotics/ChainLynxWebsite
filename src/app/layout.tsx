@@ -29,12 +29,12 @@ export default function RootLayout({
       <body
         className={
           font.className +
-          ' min-h-screen bg-slate-100 text-gray-900 dark:bg-gray-800 dark:text-gray-100'
+          ' min-h-screen bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100'
         }
       >
         <Navbar>
           <NavbarItem title="Home" href="/"></NavbarItem>
-          <NavbarDropdown title="About" href="/about" pages="/about">
+          <NavbarDropdown title="About" pages="/about">
             {aboutConfig.sections.map(section => (
               <NavbarDropdownItem
                 title={section.title}

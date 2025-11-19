@@ -11,6 +11,9 @@ subtitle: ""
 
 # Sections of the page, each one gets a title and an image gallery.
 sections:
+  - id: "2025-2026"
+    title: "2025 - 2026 Team Photo"
+    picture: "/imgs/team/TeamPhoto2025-2026.JPG"
   - id: "2023-2024" # This id is used for the table of contents, and for linking to the section. For example, this would be /team#2022-2023 (NOTE: This value must be unique and cannot contain spaces)
     title: "2023 - 2024 Team Photo" # The title of the section, displayed above the photo
     picture: "/imgs/team/TeamPhoto11_21.jpg" # Image to show, this follows the same rules as the picture url in config/index.yml

@@ -16,6 +16,8 @@ about: >
 #  The description is shown when the user hovers over the image.
 #  The url is the file path relative to the 'public' folder.
 pictures:
+  - desc: "Our 2025 robot, Just Todd at the Sammamish District Event"
+    url: "/imgs/index/JustTodd.JPG"
   - desc: "Loading the robot onto the field at the 2024 Girls Gen competition"
     url: "/imgs/index/DSC06805.webp"
   - desc: "ChainLynx members strategizing in the pit"

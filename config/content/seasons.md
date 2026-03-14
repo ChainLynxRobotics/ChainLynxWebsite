@@ -1,6 +1,8 @@
 # <center>2024-2025</center>
 
-we fell over
+During the  REEFSCAPE<sup>SM</sup>(Presented by Haas), season, a lot of changes were made in our team's mission. Our Business and Marketing department began to actively work towards the goal of winning the Impact Award, and began working on a four year-plan and portfolio to eventually get it done.
+
+Our robot, Just Todd, had a fun season, and pushed themself through a swiveling collection of mirthful mentions and memorable twists. At out first competition in Sammamish, we fnished qualifiers ranked #13, and captained Alliance 8. In Auburn, our robot went through a revolutionary event, nearly completing a successful pirouette after getting a game piece stuck in its elevator. After this whirl of events, we went on to complete our competitive season with a Spirit Award!!! ChainLynx hopes to have just as much, if not more swiveling excitement during the events of the next season!! 
 
 # <center>2023-2024</center>
 
@@ -24,4 +26,4 @@ In the face of an unprecedented virus - Covid-19 - our school went fully online,
 Our founding year, we created the basics of our club structure. Full of students new to robotics, we were passionate about learning the basics. During this year we created the basis of our club structure, our first robot, and competed in our first competition.
 
 Our team’s first-ever robot was the ‘AT-AT’ (a table - a table). This robot heavily incorporates the use of wood in its design. While uncommon, this allowed us to utilize resources we already had access to so we could focus our attention on more pressing matters such as learning how to code and use power tools. We also had the generous support of materials and teaching from Viking Robotics and the Iron Riders.
-Our team’s first-ever robot was the ‘AT-AT’ (a table - a table). This robot heavily incorporates the use of wood in its design. While uncommon, this allowed us to utilize resources we already had access to so we could focus our attention on more pressing matters such as learning how to code and use power tools. We also had the generous support of materials and teaching from Viking Robotics and the Iron Riders.
+

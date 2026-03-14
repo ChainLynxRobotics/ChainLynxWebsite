@@ -2,7 +2,7 @@
 
 During the  REEFSCAPE<sup>SM</sup>(Presented by Haas), season, a lot of changes were made in our team's mission. Our Business and Marketing department began to actively work towards the goal of winning the Impact Award, and began working on a four year-plan and portfolio to eventually get it done.
 
-Our robot, Just Todd, had a fun season, and pushed themself through a swiveling collection of mirthful mentions and memorable twists. At out first competition in Sammamish, we fnished qualifiers ranked #13, and captained Alliance 8. In Auburn, our robot went through a revolutionary event, nearly completing a successful pirouette after getting a game piece stuck in its elevator. After this whirl of events, we went on to complete our competitive season with a Spirit Award!!! ChainLynx hopes to have just as much, if not more swiveling excitement during the events of the next season!! 
+Our robot, Just Todd, had a fun season, and pushed themself through a swiveling collection of mirthful mentions and memorable twists. At out first competition in [Sammamish](https://www.thebluealliance.com/event/2025wasam), we fnished qualifiers ranked #13, and captained Alliance 8. In [Auburn](https://www.thebluealliance.com/event/2025waahs), our robot went through a revolutionary event, nearly completing a successful pirouette after getting a game piece stuck in its elevator. After this whirl of events, we went on to complete our competitive season with a Spirit Award!!! ChainLynx hopes to have just as much, if not more swiveling excitement during the events of the next season!! 
 
 # <center>2023-2024</center>
 

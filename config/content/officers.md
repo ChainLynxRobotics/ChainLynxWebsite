@@ -20,7 +20,7 @@
 
 <!-- TODO: Description of the role -->
 
-### <center>**Logistics Officer:** Mihir P.</center>
+### <center>**Logistics Officer:** Ryder G.</center>
 
 <!-- TODO: Description of the role -->
 

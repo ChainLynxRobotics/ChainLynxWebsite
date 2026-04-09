@@ -1,10 +1,10 @@
 # <center>2025-2026</center>
 
-The REBUILT<sup>SM</sup>(Presented by Haas), season came with a new resolve for us. From improving our team climate and mentor relations to adding more focus areas to the team, this season has been one of our most memorable yet!
+The REBUILT<sup>SM</sup>(Presented by Haas), season came with new resolve for us. From improving our team climate and mentor relation, to adding more focus areas to the team, this season has been one of our most memorable yet!
 
-During our first event, in [Bonney Lake](https://www.thebluealliance.com/event/2026wabon), we performed relatively well, with qualifier scores eventually shaking out to leave us in 10<sup>th</sup> place, captaining Alliance 6, being eliminated in the Second Round.
+During our first event, in [Bonney Lake](https://www.thebluealliance.com/event/2026wabon), we performed relatively well, with qualifier scores eventually leaving us in 10<sup>th</sup> place, captaining Alliance 6, and being eliminated in the Second Round.
 
-Our second event, in [Samammish](https://www.thebluealliance.com/event/2026wasam) was a very different experience for the team, with ChainLynx holding a commanding second place for the majority of the event, before finishing qualifiers 6<sup>th</sup>, captaining Alliance Four, and being eliminated in the Third Round.
+Our second event, in [Samammish](https://www.thebluealliance.com/event/2026wasam) was a very different experience for the team, with ChainLynx holding a commanding second place for the majority of the event, before finishing qualifiers 6<sup>th</sup>, captaining Alliance 4, and being eliminated in the Third Round.
 
 We have qualified for the [Pacific Northwest District Championship](https://www.thebluealliance.com/event/2026pncmp), and more on that is to come after the event!
 

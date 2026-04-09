@@ -1,3 +1,17 @@
+# <center>2025-2026</center>
+
+The REBUILT<sup>SM</sup>(Presented by Haas), season came with a new resolve for us. From improving our team climate and mentor relations to adding more focus areas to the team, this season has been one of our most memorable yet!
+
+During our first event, in [Bonney Lake](https://www.thebluealliance.com/event/2026wabon), we performed relatively well, with qualifier scores eventually shaking out to leave us in 10<sup>th</sup> place, captaining Alliance 6, being eliminated in Second Round
+
+Our second event, in [Samammish](https://www.thebluealliance.com/event/2026wasam) was a very different experience for the team, with ChainLynx holding a commanding second place for the majority of the event, before finishing qualifiers 6<sup>th</sup>, captaining Alliance Four, and being eliminated in the third round
+
+We have qualified for the [Pacific Northwest District Championship](https://www.thebluealliance.com/event/2026pncmp), and more on that is to come after the event!
+
+### Awards & Nominations
+* Autonomous Award _sponsored by Google.org_
+* First Leadership Nomination (Penny D)
+
 # <center>2024-2025</center>
 
 During the  REEFSCAPE<sup>SM</sup>(Presented by Haas), season, a lot of changes were made in our team's mission. Our Business and Marketing department began to actively work towards the goal of winning the Impact Award, and began working on a four year-plan and portfolio to eventually get it done.

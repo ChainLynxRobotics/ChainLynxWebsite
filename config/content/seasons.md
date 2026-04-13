@@ -6,11 +6,13 @@ During our first event, in [Bonney Lake](https://www.thebluealliance.com/event/2
 
 Our second event, in [Samammish](https://www.thebluealliance.com/event/2026wasam) was a very different experience for the team, with ChainLynx holding a commanding second place for the majority of the event, before finishing qualifiers 6<sup>th</sup>, captaining Alliance 4, and being eliminated in the Third Round.
 
-We have qualified for the [Pacific Northwest District Championship](https://www.thebluealliance.com/event/2026pncmp), and more on that is to come after the event!
-
 ### Awards & Nominations
 * Autonomous Award _sponsored by Google.org_
-* First Leadership Nomination (Penny D)
+* First Leadership Award Semi-Finalist (Penny D)
+
+Our work led to us qualifying for [Pacific Northwest District Championship](https://www.thebluealliance.com/event/2026pncmp). The event was highly inspiring to every member of the team, and each of us have stepped away from it with so many new ideas on where to go next. In the event, we finished 44<sup>th</sup>, and weren't selected for an alliance. 
+
+ChainLynx has had an amazing season that helped with the efford to build and REBUILD our team, and we hope that we'll have an AGE of fun in the seasons to come. 
 
 # <center>2024-2025</center>
 

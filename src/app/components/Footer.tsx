@@ -6,7 +6,7 @@ const Footer = () => {
                     <img className="w-full h-full dark:hidden" alt="Github Logo" src="/imgs/icons/github-mark.svg"></img>
                     <img className="w-full h-full hidden dark:block" alt="Github Logo" src="/imgs/icons/github-mark-white.svg"></img>
                 </a>
-                <a href="https://www.instagram.com/chainlynx.robotics/" target="_blank" className="w-12 h-12 scale-100 hover:scale-110 transition-transform duration-300">
+                <a href="https://www.instagram.com/chainlynxrobotics/" target="_blank" className="w-12 h-12 scale-100 hover:scale-110 transition-transform duration-300">
                     <img className="w-full h-full" alt="Instagram Logo" src="/imgs/icons/instagram.svg"></img>
                 </a>
                 <a href="https://www.facebook.com/people/ChainLynx-8248/61566333766903/" target="_blank" className="w-12 h-12 scale-100 hover:scale-110 transition-transform duration-300">

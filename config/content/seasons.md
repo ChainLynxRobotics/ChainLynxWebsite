@@ -12,7 +12,7 @@ Our second event, in [Samammish](https://www.thebluealliance.com/event/2026wasam
 
 Our work led to us qualifying for [Pacific Northwest District Championship](https://www.thebluealliance.com/event/2026pncmp). The event was highly inspiring to every member of the team, and each of us have stepped away from it with so many new ideas on where to go next. In the event, we finished 44<sup>th</sup>, and weren't selected for an alliance. 
 
-ChainLynx has had an amazing season that helped with the efford to build and REBUILD our team, and we hope that we'll have an AGE of fun in the seasons to come. 
+ChainLynx has had an amazing season that helped with the effort to build and REBUILD our team, and we hope that we'll have an AGE of fun in the seasons to come. 
 
 # <center>2024-2025</center>
 

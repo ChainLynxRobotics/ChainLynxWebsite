@@ -4,7 +4,7 @@ The REBUILT<sup>SM</sup>(Presented by Haas), season came with new resolve for us
 
 During our first event, in [Bonney Lake](https://www.thebluealliance.com/event/2026wabon), we performed relatively well, with qualifier scores eventually leaving us in 10<sup>th</sup> place, captaining Alliance 6, and being eliminated in the Second Round.
 
-Our second event, in [Samammish](https://www.thebluealliance.com/event/2026wasam) was a very different experience for the team, with ChainLynx holding a commanding second place for the majority of the event, before finishing qualifiers 6<sup>th</sup>, captaining Alliance 4, and being eliminated in the Third Round.
+Our second event, in [Sammamish](https://www.thebluealliance.com/event/2026wasam) was a very different experience for the team, with ChainLynx holding a commanding second place for the majority of the event, before finishing qualifiers 6<sup>th</sup>, captaining Alliance 4, and being eliminated in the Third Round.
 
 ### Awards & Nominations
 * Autonomous Award _sponsored by Google.org_

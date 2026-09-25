@@ -8,7 +8,7 @@ Our second event, in [Sammamish](https://www.thebluealliance.com/event/2026wasam
 
 ### Awards & Nominations
 * Autonomous Award _sponsored by Google.org_
-* First Leadership Award Semi-Finalist (Penny D)
+* First Leadership Award Semi-Finalist (Penny Daniels)
 
 Our work led to us qualifying for [Pacific Northwest District Championship](https://www.thebluealliance.com/event/2026pncmp). The event was highly inspiring to every member of the team, and each of us have stepped away from it with so many new ideas on where to go next. In the event, we finished 44<sup>th</sup>, and weren't selected for an alliance. 
 

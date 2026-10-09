@@ -12,6 +12,16 @@ subtitle: "Our robot is designed and built by our students, with the help of our
 # Sections of the page, each one gets a title and an image gallery.
 sections:
 
+  - id: "2025-2026" # This id is used for the table of contents, and for linking to the section. For example, this would be /robot#2022-2023 (NOTE: This value must be unique and cannot contain spaces)
+    title: "2025 - 2026 Design" # The title of the section, displayed above the photos
+    pictures: # Image to show, this follows the same rules as the pictures section in config/index.yml
+      - desc: "Our 2026 Robot, Eddy in 5468's Robot Photo Booth"
+        url: "/imgs/robot/2025-2026/photobooth.avif"
+      - desc: "The Shooter Mechanism"
+        url: "/imgs/robot/2025-2026/shoot.avif"
+      - desc: "Eddy After A Match"
+        url: "/imgs/robot/2025-2026/robot.avif"
+
   - id: "2024-2025" # This id is used for the table of contents, and for linking to the section. For example, this would be /robot#2022-2023 (NOTE: This value must be unique and cannot contain spaces)
     title: "2024 - 2025 Design" # The title of the section, displayed above the photos
     pictures: # Image to show, this follows the same rules as the pictures section in config/index.yml
